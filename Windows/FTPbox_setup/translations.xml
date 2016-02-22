@@ -447,87 +447,93 @@
     <main_form>
       <options>Options</options>
       <general>Général</general>
-      <host>Hôte</host>
-      <port>Port </port>
+      <host>Adresse</host>
+      <port>Port</port>
       <username>Nom d'utilisateur</username>
       <password>Mot de passe</password>
-      <mode>Protocole</mode>
+      <mode>Protocol</mode>
       <change>Changer</change>
       <account>Compte</account>
       <application>Application</application>
-      <start_on_startup>Lancer au démarage du système</start_on_startup>
+      <start_on_startup>Démarrer quand l'ordinateur s'allume</start_on_startup>
       <show_nots>Afficher les notifications</show_nots>
       <profile>Profil</profile>
       <details>Détails</details>
       <links>Liens</links>
       <remote_path>Chemin distant</remote_path>
       <local_path>Chemin local</local_path>
-      <account_full_path>Chemin complet</account_full_path>
-      <when_not_clicked>Quand une notification ou un fichier récent est cliqué</when_not_clicked>
+      <account_full_path>Chemin complet des comptes</account_full_path>
+      <when_not_clicked>quand le panneau de notifications ou de fichiers récents est cliqué</when_not_clicked>
       <open_in_browser>Ouvrir le lien dans le navigateur par défaut</open_in_browser>
-      <copy>Copier le lien dans le presse-papiers</copy>
-      <about>À propos</about>
+      <copy>Copier le lien dans le presse papier</copy>
+      <about>A propos</about>
       <current_version>Version actuelle</current_version>
-      <team>L'équipe</team>
+      <team>L'Équipe</team>
       <website>Site officiel</website>
       <contact>Contact</contact>
       <coded_in>Programmé en</coded_in>
       <notes>Notes</notes>
       <contribute>Contribuer</contribute>
-      <ftpbox_is_free>FTPbox est gratuit et open-source</ftpbox_is_free>
-      <contact_me>N'hésitez pas à me contacter</contact_me>
+      <ftpbox_is_free>FTPbox est gratuit est open-source</ftpbox_is_free>
+      <contact_me>N'hésitez pas à nous contacter pour quoi que ce soit</contact_me>
       <copyright>Copyright</copyright>
-      <report_bug>Reporter un bug</report_bug>
-      <request_feature>Proposer une fonctionnalité</request_feature>
-      <donate>Faites un don</donate>
-      <language>Langue</language>
+      <report_bug>Signaler un bug</report_bug>
+      <request_feature>Demander une nouvelle fonction</request_feature>
+      <donate>Faire un don</donate>
+      <language>Langage</language>
       <open_local>Ouvrir le fichier local</open_local>
       <bandwidth>Bande passante</bandwidth>
-      <sync_freq>Fréquence de synchronisation</sync_freq>
-      <sync_when>Synchroniser les fichiers distants</sync_when>
-      <manually>manuellement</manually>
-      <auto>automatiquement toutes les</auto>
+      <sync_freq>Fréquence de synchonisation</sync_freq>
+      <sync_when>Synchroniser les fichiers du serveur</sync_when>
+      <manually>Manuellement</manually>
+      <auto>Automatiquement toutes les</auto>
       <seconds>secondes</seconds>
       <speed_limits>Limites de vitesse</speed_limits>
-      <limit_download>Limite de téléchargement</limit_download>
-      <limit_upload>Limite d'envoi</limit_upload>
-      <no_limits>( définir à 0 pour illimité )</no_limits>
+      <limit_download>Limite de vitesse de téléchargement</limit_download>
+      <limit_upload>Limite de vitesse de transfert</limit_upload>
+      <no_limits>(entrez 0 pour désactiver la limite)</no_limits>
       <selective>Synchronisation sélective</selective>
-      <selective_info>Décochez les éléments que vous ne souhaitez pas synchroniser</selective_info>
+      <selective_info>Désélectionnez les items que vous ne souhaitez pas synchroniser</selective_info>
       <refresh>Rafraîchir</refresh>
       <configure>Configurer</configure>
       <file_filters>Filtres</file_filters>
-      <ignored_extensions>Ignorer les extensions suivantes</ignored_extensions>
-      <remove>Retirer</remove>
-      <also_ignore>Ignorer seulement</also_ignore>
-      <dotfiles>Fichiers cachés ( ._ ), fichiers systèmes</dotfiles>
+      <ignored_extensions>Extensions ignorées</ignored_extensions>
+      <remove>Supprimer</remove>
+      <also_ignore>Ignorer</also_ignore>
+      <dotfiles>fichiers cachés (.) et fichiers système</dotfiles>
       <temp_files>Fichiers temporaires</temp_files>
       <old_files>Fichiers modifiés avant</old_files>
       <enable_logging>Activer les logs</enable_logging>
-      <view_log>Afficher les logs</view_log>
+      <view_log>Visionner les logs</view_log>
+      <shell_menus>Ajouter au menu contextuel</shell_menus>
+      <way_of_sync>Sens de synchronisation</way_of_sync>
+      <local_to_remote>Ordinateur vers serveur (uniquement)</local_to_remote>
+      <remote_to_local>Serveur vers ordinateur (uniquement)</remote_to_local>
+      <both_ways>Les deux</both_ways>
+      <temp_file_prefix>Préfixe des fichiers temporaires</temp_file_prefix>
     </main_form>
     <new_account>
       <new_ftp>Nouveau compte FTP</new_ftp>
-      <login_details>Paramètres FTP</login_details>
-      <encryption>Chiffrement</encryption>
+      <login_details>Détails de connexion FTP</login_details>
+      <encryption>Encryptage</encryption>
       <ask_for_password>Toujours demander le mot de passe</ask_for_password>
       <add>Ajouter</add>
-      <done>Terminer</done>
+      <done>Terminé</done>
     </new_account>
     <paths>
       <new_paths>Nouveaux chemins</new_paths>
       <add_dir>Ajouter un nouveau répertoire</add_dir>
-      <select_dir>Sélectionner un répertoire</select_dir>
+      <select_dir>Sélectionner le répertoire</select_dir>
       <full_path>Chemin complet</full_path>
-      <default_local>Je veux utiliser le répertoir local par défaut</default_local>
-      <custom_local>Je veux choisir un répertoir local</custom_local>
-      <local_folder>Répertoire local</local_folder>
+      <default_local>Je veux utiliser le dossier local par défaut</default_local>
+      <custom_local>Je veux sélectionner un dossier local</custom_local>
+      <local_folder>Dossier local</local_folder>
       <browse>Parcourir</browse>
     </paths>
     <setup>
       <authentication>Authentification</authentication>
       <sync_all_files>Je veux synchroniser tous les fichiers</sync_all_files>
-      <sync_specific_files>Je veux sélectionner les fichiers à synchroniser</sync_specific_files>
+      <sync_specific_files>Je veux sélectionner les fichiers qui seront synchronisés</sync_specific_files>
       <previous>Précédent</previous>
       <next>Suivant</next>
     </setup>
@@ -537,51 +543,52 @@
       <new_v_available>Une nouvelle version de FTPbox est disponible</new_v_available>
       <new_version>Nouvelle version</new_version>
       <current_version>Version actuelle</current_version>
-      <wanna_download>Souhaitez-vous télécharger la nouvelle version maintenant</wanna_download>
-      <download>Télécharger</download>
-      <learn_more>Plus d'informations</learn_more>
-      <remind_me_next_time>Me le rappeler la prochaine fois</remind_me_next_time>
+      <wanna_download>Voulez-vous télécharger la nouvelle version maintenant ?</wanna_download>
+      <download>Effectuer la mise à jour maintenant</download>
+      <learn_more>En savoir plus...</learn_more>
+      <remind_me_next_time>Pas cette fois</remind_me_next_time>
     </new_version>
     <tray>
-      <tray_and_nots>Notifications</tray_and_nots>
-      <updated>{0} a été mis à jour.</updated>
-      <created>{0} a été créé.</created>
-      <renamed>{0} a été renommé en {1}.</renamed>
-      <deleted>{0} a été supprimé.</deleted>
-      <changed>{0} a été changé.</changed>
-      <FilesOrFoldersUpdated>{0} {1} a été mis à jour</FilesOrFoldersUpdated>
-      <FilesOrFoldersCreated>{0} {1} a été créé</FilesOrFoldersCreated>
+      <tray_and_nots>Panneau &amp; notifications</tray_and_nots>
+      <updated>{0} a été mis à jour</updated>
+      <created>{0} a été créé</created>
+      <renamed>{0} a été renommé en {1}</renamed>
+      <deleted>{0} a été supprimé</deleted>
+      <changed>{0} a été changé</changed>
+      <FilesOrFoldersUpdated>{0} {1} ont été mis à jour</FilesOrFoldersUpdated>
+      <FilesOrFoldersCreated>{0} {1} ont été créés</FilesOrFoldersCreated>
       <FilesAndFoldersChanged>{0} {1} et {2} {3} ont été mis à jour</FilesAndFoldersChanged>
-      <ItemsDeleted>{0} éléments ont été supprimés.</ItemsDeleted>
+      <ItemsDeleted>{0} items ont été supprimés</ItemsDeleted>
       <file>Fichier</file>
       <files>Fichiers</files>
       <folder>Dossier</folder>
       <folders>Dossiers</folders>
       <connecting>FTPbox - Connexion...</connecting>
-      <reconnecting>FTPbox - Nouvel essai de connexion...</reconnecting>
-      <listing>FTPbox - Listing...</listing>
-      <uploading>Envoi {0}</uploading>
-      <downloading>Téléchargement {0}</downloading>
-      <ready>FTPbox – Prêt</ready>
-      <synced>FTPbox - Fichiers synchronisés</synced>
-      <syncing>FTPbox - Synchronisation…</syncing>
+      <reconnecting>FTPbox - Reconnexion...</reconnecting>
+      <listing>FTPbox - Listage...</listing>
+      <uploading>Envoi de {0}</uploading>
+      <downloading>Téléchargement de {0}</downloading>
+      <ready>FTPbox - Prête</ready>
+      <synced>FTPbox - Tous les fichiers sont synchronisés</synced>
+      <syncing>FTPbox - Synchronisation...</syncing>
       <offline>FTPbox - Hors ligne</offline>
-      <link_copied>Lien copié dans le presse-papiers</link_copied>
+      <link_copied>Lien copié dans le presse-papier</link_copied>
       <recent_files>Fichiers récents</recent_files>
-      <not_available>Non disponible</not_available>
-      <start_syncing>Démarrer la synchronisation</start_syncing>
-      <exit>Fermer</exit>
+      <not_available>Indisponible</not_available>
+      <modified>Modifié</modified>
+      <start_syncing>Lancer la synchronisation</start_syncing>
+      <exit>Quitter</exit>
     </tray>
     <web_interface>
-      <web_int>Interface Web</web_int>
-      <downloading>L'interface web va être téléchargée.</downloading>
-      <in_a_minute>Cela prendra quelques instants.</in_a_minute>
+      <web_int>Interface web</web_int>
+      <downloading>L'inferface web va être téléchargée</downloading>
+      <in_a_minute>Cela prendra une minute</in_a_minute>
       <removing>Suppression de l'interface web...</removing>
-      <removed>L'interface web a été supprimée.</removed>
-      <updating>la mise à jour de l'interface web...</updating>
-      <updated>L'interface web a été mise à jour.</updated>
-      <setup>Cliquez ici pour voir et la configurer !</setup>
-      <use_webint>Utiliser l'interface Web</use_webint>
+      <removed>L'interface web a été supprimée</removed>
+      <updating>Mise à jour de l'interface web...</updating>
+      <updated>L'interface web a été mise à jour</updated>
+      <setup>Cliquer ici pour voir et la mettre en place!</setup>
+      <use_webint>Utiliser l'inferface web</use_webint>
       <view>(Voir dans le navigateur)</view>
     </web_interface>
   </fr>
@@ -611,16 +618,16 @@
       <copy>Kopieer link naar het klembord</copy>
       <about>Over</about>
       <current_version>Huidige versie</current_version>
-      <team>Het team</team>
+      <team>Het Team</team>
       <website>Officiële website</website>
       <contact>Contact</contact>
       <coded_in>Geprogrammeerd in</coded_in>
       <notes>Notities</notes>
-      <contribute>Contributies</contribute>
+      <contribute>Doneer</contribute>
       <ftpbox_is_free>FTPbox is gratis en open-source</ftpbox_is_free>
       <contact_me>Aarzel niet contact met me op te nemen</contact_me>
       <copyright>Copyright</copyright>
-      <report_bug>Meld en probleem</report_bug>
+      <report_bug>Meld een probleem</report_bug>
       <request_feature>Verzoek een functie</request_feature>
       <donate>doneer</donate>
       <language>Taal</language>
@@ -640,14 +647,20 @@
       <refresh>Vernieuwen</refresh>
       <configure>Configureren</configure>
       <file_filters>Filters</file_filters>
-      <ignored_extensions>Genegeerde extensies</ignored_extensions>
+      <ignored_extensions>Genegeerde Extensies</ignored_extensions>
       <remove>Verwijder</remove>
       <also_ignore>Negeer ook</also_ignore>
       <dotfiles>dotbestanden</dotfiles>
-      <temp_files>Tijdelijke bestanden</temp_files>
+      <temp_files>Tijdelijke Bestanden</temp_files>
       <old_files>Bestanden gewijzigd voor</old_files>
-      <enable_logging>Schakel loggen in</enable_logging>
-      <view_log>Bekijk log</view_log>
+      <enable_logging>Aanzetten Logging</enable_logging>
+      <view_log>Bekijk Log</view_log>
+      <shell_menus>Toevoegen aan submenu</shell_menus>
+      <way_of_sync>Manier van synchroniseren</way_of_sync>
+      <local_to_remote>Alleen van lokaal naar extern</local_to_remote>
+      <remote_to_local>Alleen van extern naar lokaal</remote_to_local>
+      <both_ways>Beide kanten</both_ways>
+      <temp_file_prefix>Tijdelijke bestandsprefix</temp_file_prefix>
     </main_form>
     <new_account>
       <new_ftp>Nieuwe FTP account</new_ftp>
@@ -659,13 +672,13 @@
     </new_account>
     <paths>
       <new_paths>Nieuwe paden</new_paths>
-      <add_dir>voeg een map toe</add_dir>
-      <select_dir>selecteer een map</select_dir>
-      <full_path>volledig pad</full_path>
+      <add_dir>Voeg een map toe</add_dir>
+      <select_dir>Selecteer een map</select_dir>
+      <full_path>Volledig pad</full_path>
       <default_local>Ik wil de default lokale folder gebruiken</default_local>
       <custom_local>Ik wil zelf een lokale folder kiezen</custom_local>
-      <local_folder>lokale map</local_folder>
-      <browse>Zoeken</browse>
+      <local_folder>Lokale map</local_folder>
+      <browse>Bladeren</browse>
     </paths>
     <setup>
       <authentication>Authenticatie</authentication>
@@ -675,22 +688,22 @@
       <next>Volgende</next>
     </setup>
     <new_version>
-      <new_ver>Nieuwe versie</new_ver>
+      <new_ver>Nieuwe Versie</new_ver>
       <update_available>Update beschikbaar</update_available>
       <new_v_available>Een nieuwe versie van FTPbox is beschikbaar</new_v_available>
-      <new_version>Nieuwe versie</new_version>
-      <current_version>Huidige versie</current_version>
+      <new_version>Nieuwe Versie</new_version>
+      <current_version>Huidige Versie</current_version>
       <wanna_download>Wilt u de nieuwste versie downloaden</wanna_download>
-      <download>Download</download>
-      <learn_more>Lees meer</learn_more>
-      <remind_me_next_time>Waarschuw me de volgende keer</remind_me_next_time>
+      <download>Nu Bijwerken</download>
+      <learn_more>Lees Meer</learn_more>
+      <remind_me_next_time>Niet deze keer</remind_me_next_time>
     </new_version>
     <tray>
-      <tray_and_nots>Taakbal _and Notificaties</tray_and_nots>
+      <tray_and_nots>Taakbalk &amp; Notificaties</tray_and_nots>
       <updated>{0} is geüpdatet</updated>
       <created>{0} is gecreëerd</created>
       <renamed>{0} is hernoemd naar {1}</renamed>
-      <deleted>{0} is verwijdert.</deleted>
+      <deleted>{0} is verwijderd.</deleted>
       <changed>{0} is gewijzigd.</changed>
       <FilesOrFoldersUpdated>{0} {1} zijn bijgewerkt</FilesOrFoldersUpdated>
       <FilesOrFoldersCreated>{0} {1} zijn aangemaakt</FilesOrFoldersCreated>
@@ -710,18 +723,19 @@
       <syncing>FTPbox – Synchroniseren</syncing>
       <offline>FTPbox – Offline</offline>
       <link_copied>Link naar klembord gekopieerd</link_copied>
-      <recent_files>Recente bestanden</recent_files>
-      <not_available>Recente Bestanden</not_available>
-      <start_syncing>Niet Beschikbaar</start_syncing>
-      <exit>Start Synchronisatie</exit>
+      <recent_files>Recente Bestanden</recent_files>
+      <not_available>Niet Beschikbaar</not_available>
+      <modified>Aangepast</modified>
+      <start_syncing>Start Synchronisatie</start_syncing>
+      <exit>Beëindigen</exit>
     </tray>
     <web_interface>
-      <web_int>Web interface</web_int>
-      <downloading>Het Web Interface wordt gedownload.</downloading>
-      <in_a_minute>Een minuut geduld alstublieft.</in_a_minute>
+      <web_int>Web Interface</web_int>
+      <downloading>De Web Interface wordt gedownload.</downloading>
+      <in_a_minute>Eén minuut geduld alstublieft.</in_a_minute>
       <removing>Web Interface aan het verwijderen...</removing>
       <removed>De Web interface is verwijderd</removed>
-      <updating>Web interface aan het updaten...</updating>
+      <updating>Web interface is aan het updaten...</updating>
       <updated>De Web Interface is geüpdatet</updated>
       <setup>Klik hier om het te bekijken en op te zetten</setup>
       <use_webint>Gebruik de web interface</use_webint>
@@ -2083,6 +2097,7 @@
       <application>Alkalmazás</application>
       <start_on_startup>Indítás a rendszer indításakor</start_on_startup>
       <show_nots>értesítések mutatása</show_nots>
+      <profile>Profil</profile>
       <details>Részletek</details>
       <links>Linkek</links>
       <remote_path>Távoli útvonal</remote_path>
@@ -2119,22 +2134,49 @@
       <no_limits>( állítsd 0-ra a korlátlanhoz )</no_limits>
       <selective>Válogatott szinkronizálás</selective>
       <selective_info>Ne pipáld ki azokat, amelyeket nem szeretnél szinkronizálni</selective_info>
+      <refresh>Frissítés</refresh>
+      <configure>Konfigurálás</configure>
+      <file_filters>Szűrők</file_filters>
+      <ignored_extensions>Kizárt kiterjesztések</ignored_extensions>
+      <remove>Eltávolítás</remove>
+      <also_ignore>További kizárás</also_ignore>
+      <dotfiles>Ponttal kezdődő</dotfiles>
+      <temp_files>Ideiglenes fájlok</temp_files>
+      <old_files>Fájlok módosítva ez előtt</old_files>
+      <enable_logging>Naplózás</enable_logging>
+      <view_log>Napló megtekintése</view_log>
+      <shell_menus>Hozzáadás helyi menühöz</shell_menus>
+      <way_of_sync>Szinkronizáció iránya</way_of_sync>
+      <local_to_remote>Csak feltöltés</local_to_remote>
+      <remote_to_local>Csak letöltés</remote_to_local>
+      <both_ways>Kétirányú</both_ways>
+      <temp_file_prefix>Ideiglenes fájlkiterjesztés</temp_file_prefix>
     </main_form>
     <new_account>
       <new_ftp>Új FTP fiók</new_ftp>
       <login_details>FTP belépési adatok</login_details>
       <encryption>Titkosítás</encryption>
-      <add>új</add>
-      <done>rendben</done>
+      <ask_for_password>Ne jegyezze meg a jelszót</ask_for_password>
+      <add>Hozzáadás</add>
+      <done>Rendben</done>
     </new_account>
     <paths>
       <new_paths>Új útvonalak</new_paths>
-      <add_dir>új könyvtár hozzáadása</add_dir>
-      <select_dir>könyvtár kiválasztása</select_dir>
-      <full_path>teljes útvonal</full_path>
-      <local_folder>helyi mappa</local_folder>
-      <browse>böngészés</browse>
+      <add_dir>Új könyvtár hozzáadása</add_dir>
+      <select_dir>Könyvtár kiválasztása</select_dir>
+      <full_path>Teljes útvonal</full_path>
+      <default_local>Az alapértelmezett mappa használata</default_local>
+      <custom_local>Helyi mappa használata</custom_local>
+      <local_folder>Helyi mappa</local_folder>
+      <browse>Böngészés</browse>
     </paths>
+    <setup>
+      <authentication>Hitelesítés</authentication>
+      <sync_all_files>Minden fájl szinkronizálása</sync_all_files>
+      <sync_specific_files>Csak a kiválasztott fájlok szinkronizálása</sync_specific_files>
+      <previous>Előző</previous>
+      <next>Következő</next>
+    </setup>
     <new_version>
       <new_ver>Új verzió</new_ver>
       <update_available>Frissítés elérhető</update_available>
@@ -2173,8 +2215,9 @@
       <link_copied>Link a vágólapra másolva</link_copied>
       <recent_files>Legutóbbi fájlok</recent_files>
       <not_available>Nem elérhető</not_available>
+      <modified>Módosítva</modified>
       <start_syncing>Szinkronizálás indítása</start_syncing>
-      <exit>Išeiti</exit>
+      <exit>Kilépés</exit>
     </tray>
     <web_interface>
       <web_int>Webes felület</web_int>
@@ -2681,6 +2724,7 @@
       <application>應用</application>
       <start_on_startup>當啟動時自動執行</start_on_startup>
       <show_nots>顯示提示訊息</show_nots>
+      <profile>設定檔</profile>
       <details>詳細資料</details>
       <links>連結</links>
       <remote_path>遠端路徑</remote_path>
@@ -2717,11 +2761,29 @@
       <no_limits>( 設定 0 為 沒有限速 )</no_limits>
       <selective>選擇性同步</selective>
       <selective_info>反勾選不需要同步的項目</selective_info>
+      <refresh>重新整理</refresh>
+      <configure>設定</configure>
+      <file_filters>篩選</file_filters>
+      <ignored_extensions>例外清單</ignored_extensions>
+      <remove>移除</remove>
+      <also_ignore>總是略過</also_ignore>
+      <dotfiles>點文件</dotfiles>
+      <temp_files>暫存檔案</temp_files>
+      <old_files>修改之前</old_files>
+      <enable_logging>啟動記錄檔</enable_logging>
+      <view_log>檢示記錄</view_log>
+      <shell_menus>增加在選單上</shell_menus>
+      <way_of_sync>同步選項</way_of_sync>
+      <local_to_remote>本機到遠端</local_to_remote>
+      <remote_to_local>遠端到本機</remote_to_local>
+      <both_ways>兩者都要</both_ways>
+      <temp_file_prefix>暫存檔案字首</temp_file_prefix>
     </main_form>
     <new_account>
       <new_ftp>新增 FTP 帳戶</new_ftp>
       <login_details>FTP 登入詳情</login_details>
       <encryption>加密</encryption>
+      <ask_for_password>總是問密碼</ask_for_password>
       <add>新增</add>
       <done>完成</done>
     </new_account>
@@ -2730,9 +2792,18 @@
       <add_dir>新增新的資料夾</add_dir>
       <select_dir>選擇資料夾</select_dir>
       <full_path>完全路徑</full_path>
+      <default_local>使用預計資料夾</default_local>
+      <custom_local>使用選擇資料夾</custom_local>
       <local_folder>本地資料夾</local_folder>
       <browse>瀏覽</browse>
     </paths>
+    <setup>
+      <authentication>認證</authentication>
+      <sync_all_files>同步所有檔案</sync_all_files>
+      <sync_specific_files>同步已選擇檔案</sync_specific_files>
+      <previous>上一步</previous>
+      <next>下一步</next>
+    </setup>
     <new_version>
       <new_ver>最新版本</new_ver>
       <update_available>更新已可供下載</update_available>
@@ -2771,6 +2842,7 @@
       <link_copied>連結複製的到剪貼板</link_copied>
       <recent_files>最近的文件</recent_files>
       <not_available>不可用</not_available>
+      <modified>已修改</modified>
       <start_syncing>開始同步</start_syncing>
       <exit>關閉</exit>
     </tray>
@@ -3505,6 +3577,12 @@
       <old_files>Ficheiros modificados antes de </old_files>
       <enable_logging>Activar registo</enable_logging>
       <view_log>Ver registo</view_log>
+      <shell_menus>Adicionar ao menu de conteúdo</shell_menus>
+      <way_of_sync>Modo de sincronização</way_of_sync>
+      <local_to_remote>Apenas do local para o servidor</local_to_remote>
+      <remote_to_local>Apenas do Servidor para o local</remote_to_local>
+      <both_ways>Em ambos os sentidos</both_ways>
+      <temp_file_prefix>Prefixo arquivo temporário</temp_file_prefix>
     </main_form>
     <new_account>
       <new_ftp>Nova conta FTP</new_ftp>
@@ -3569,6 +3647,7 @@
       <link_copied>Ligação copiado para o clipboard</link_copied>
       <recent_files>Ficheiros Recentes</recent_files>
       <not_available>Não Disponível</not_available>
+      <modified>Modificado</modified>
       <start_syncing>Iniciar Sincronização</start_syncing>
       <exit>Sair</exit>
     </tray>
